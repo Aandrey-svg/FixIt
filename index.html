@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>FixIt</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+
+    <body>
+        <!--Демо баннер-->
+        <div class="demo-banner">
+            Демо сайт для портфолио | Андрей © 2025
+        </div>
+
+        <!-- Шапка сайта -->
+        <header>
+            <a href="#" class="logo">
+                <i class="fas fa-tools"></i>
+                <span>Fix</span>It
+            </a>
+            <nav>
+                <a href="#services">Услуги</a>
+                <a href="#about">О нас</a>
+                <a href="#ortfolio">Наши работы</a>
+                <a href="#rewiews">Отзывы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </header>
+
+        <!-- Основной контент -->
+        <main>
+            <!-- Герой секция -->
+            <section class="hero">
+                <h1>Ремонт техники в <span>Москве</span> за 60 минут</h1>
+                <p>Починим ваш телефон, ноутбук или планшет с гарантией до 6 месяцев</p>
+                <a href="#contacts" class="btn pulse">Бесплатная диагностика</a>
+                <img src="images/....webp" alt="Инструменты для ремонта техники">
+            </section>
+
+            <!-- Услуги -->
+            <section id="services" class="section">
+                <h2>Нащи услуги</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Смартфоны</h3>
+                        <ul>
+                            <li>Замена экрана</li>
+                            <li>Ремонт разъёма</li>
+                            <li>Замена батареи</li>
+                            <li>Чистка после воды</li>
+                        </ul>
+                        <div clsss="price">от 1500 ₽</div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Ноутбуки</h3>
+                        <ul>
+                            <li>Замена матрицы</li>
+                            <li>Чистка и замена термопасты</li>
+                            <li>Ремонт клавиатуры</li>
+                            <li>Апгрейд комплектующих</li>
+                        </ul>
+                        <div class="price">от 2 500 ₽</div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tablet-alt"></i>
+                        </div>
+                        <h3>Планшеты</h3>
+                        <ul>
+                            <li>Замена дисплея</li>
+                            <li>Ремонт кнопок</li>
+                            <li>Восстановление после падения</li>
+                            <li>Замена разьема зарядки</li>
+                        </ul>
+                        <div class="price">от 2 000 ₽</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- О нас / Преимущества-->
+            <section id="about" class="section grey-bg">
+                <h2>Почему выбирают нас</h2>
+                <div class="advantages-grid">
+                    <div class="advantages-card">
+                        <div class="advantages-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Ремонт за 1 час</h3>
+                        <p>90% работ  в день обращения</p>
+                    </div>
+
+                    <div class="advantages-card">
+                        <div class="advantages-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Гарантия 90 дней</h3>
+                        <p>На все виды работ и заптчасти</p>
+                    </div>
+
+                    <div class="advantages-card">
+                        <div class="advantages-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Выезд мастера</h3>
+                        <p>Ремонт на дому или в офисе</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Портфолио работ-->
+            <section id="portfolio" class="section">
+                <h2>Примеры наших работ</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="before-after">
+                            <div class="image-container">
+                                <img src="images/before-1.webp" alt="До ремонта">
+                                <span>До</span>
+                            </div>
+                            <div class="image-container">
+                                <img src="images/after-1.webp" alt="После ремонта">
+                                <span>После</span>
+                            </div>
+                        </div>
+                        <h3>Замена экрана iPhone 12</h3>
+                        <p>Время ремонта: 45 минут</p>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="before-after">
+                            <div class="image-container">
+                                <img src="images/before-2.webp" alt="До ремонта">
+                                <span>До</span>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/after-2.webp" alt="После ремонта">
+                            <span>После</span>
+                        </div>
+                    </div>
+                    <h3>Чистка ноутбука от пыли</h3>
+                    <p>Время ремонта: 1 час 20 минут</p>
+                </div>
+            </section>
+
+            <!-- Калькулятор стоимости -->
+            <section class="section gray-bg">
+                <h2>Калькулятор стоимости ремонта</h2>
+                <div class="calculator">
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <label for="device">Устройство:</label>
+                            <select id="device">
+                                <option value="phone">Смартфон</option>
+                                <option value="laptop">Ноутбук</option>
+                                <option value="tablet">Планшет</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="problem">Проблема:</label>
+                            <select id="problem">
+                                <option value="screen">Замена экрана</option>
+                                <option value="battery">Замена батареи</option>
+                                <option value="port">Ремонт разъёма</option>
+                                <option value="water">Чистка после воды</option>
+                            </select>
+                        </div>
+
+                        <button id="calculate-btn" class="btn">Рассчитать стоимость</button>
+                    </div>
+                    <div class="calculator-result" id="calculator-result">
+                        <p>Выберите параметры ремонта</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Отзывы -->
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Е</div>
+                                <div class="review-author">
+                                <h4>Екатерина</h4>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Замена экрана на планшете прошла быстро и качественно. Цены ниже, чем в других сервисах.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Контакты и форма -->
+            <section id="contacts" class="section accent-bg">
+                <div class="contacts-container">
+                    <div class="contacts-info">
+                        <h2>Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Москва, ул. Техническая, д. 15</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p><a href="https://wa.me/79991234567">Написать в WhatsApp</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="far fa-clock"></i>
+                            <p>Пн-Пт: 10:00-20:00<br>Сб-Вс: 11:00-18:00</p>
+                        </div>
+                    </div>
+
+                    <div class="contacts-form">
+                        <h2>Записаться на ремонт</h2>
+                        <form id="repair-form">
+                            <input type="text" placeholder="Ваше имя" required>
+                            <input type="tel" placeholder="Телефон" required>
+                            <textarea placeholder="Опишите проблему"></textarea>
+                            <button type="submit" class="btn">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-tools"></i>
+                    <span>Fix</span>It
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Услуги</a>
+                    <a href="#portfolio">Наши работы</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <p>Демонстрационный сайт для портфолио | Не является реальным бизнесом</p>
+                <p>Технологии: HTML5, CSS3, JavaScript, адаптивная верстка</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
